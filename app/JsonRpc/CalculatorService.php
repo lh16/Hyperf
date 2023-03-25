@@ -25,4 +25,6 @@ class CalculatorService implements CalculatorServiceInterface
  *
  * 使用配置中心要自己先安装，官方文档并未说明。如安装consul  https://www.jianshu.com/p/591ff69fe5e7
  * publishTo: "consul"
+ *
+ * 其他微服务基础支撑参考：https://blog.csdn.net/weixin_40670060/article/details/109582821
  */
