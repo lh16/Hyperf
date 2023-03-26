@@ -7,9 +7,9 @@ use Hyperf\RpcServer\Annotation\RpcService;
 /**
  * Class CalculatorService
  * @package App\JsonRpc
- * RpcService(name="CaculatorService", protocol="jsonrpc-http", server="jsonrpc-http")
+ * @RpcService(name="CaculatorService", protocol="jsonrpc-http", server="jsonrpc-http")
  */
-#[RpcService(name: "CalculatorService", protocol: "jsonrpc-http", server: "jsonrpc-http")]
+#[RpcService(name:"CalculatorService",protocol:"jsonrpc-http",server:"jsonrpc-http")]
 class CalculatorService implements CalculatorServiceInterface
 {
     // 实现一个加法方法，这里简单的认为参数都是 int 类型
